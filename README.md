@@ -78,3 +78,4 @@ Smart-Travel-Planner/
 ## Author
 
 Developed as a personal web development project for learning and portfolio purposes.
+author name:Sujoy Bhattacharjee
