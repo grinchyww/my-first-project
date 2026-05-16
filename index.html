@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Smart Travel Planner</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+<span class="logo-icon">✈️</span>
+<span class="logo-text">Travel Planner</span>
+</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#destinations">Destinations</a></li>
+<li><a href="#plan">Plan Trip</a></li>
+<li><a href="#hotels">Hotels</a></li>
+<li><a href="#places">Places</a></li>
+<li><a href="#map">Map</a></li>
+</ul>
+
+</nav>
+
+
+<section class="hero" id="home">
+
+<h1>Explore The World 🌍</h1>
+<p>Plan your dream trip easily</p>
+
+</section>
+
+
+<h2 id="destinations">Popular Destinations</h2>
+
+<div class="destinations">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+<h3>Cox's Bazar</h3>
+<p>Longest sea beach</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa">
+<h3>Sylhet</h3>
+<p>Tea gardens</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<h3>Bandarban</h3>
+<p>Hills & waterfalls</p>
+</div>
+
+</div>
+
+
+<h2 id="plan">Trip Cost Calculator</h2>
+
+<div class="calculator">
+
+<input type="number" id="transport" placeholder="Transport Cost">
+<input type="number" id="hotel" placeholder="Hotel Cost">
+<input type="number" id="food" placeholder="Food Cost">
+<input type="number" id="other" placeholder="Other Cost">
+
+<br><br>
+
+<button onclick="calculateCost()">Calculate Total</button>
+
+<h3 id="result"></h3>
+
+</div>
+
+
+<h2 id="hotels">Popular Hotels</h2>
+
+<div class="hotels">
+
+<div class="hotel-card">
+<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945">
+<h3>Sea Crown Hotel</h3>
+<p>Cox's Bazar</p>
+</div>
+
+<div class="hotel-card">
+<img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+<h3>Long Beach Hotel</h3>
+<p>Cox's Bazar</p>
+</div>
+
+<div class="hotel-card">
+<img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa">
+<h3>Grand Sultan Resort</h3>
+<p>Sylhet</p>
+</div>
+
+</div>
+
+
+<h2 id="places">Famous Attractions</h2>
+
+<div class="places">
+
+<div class="place-card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+<h3>Cox's Bazar</h3>
+<p>Inani Beach, Himchori</p>
+</div>
+
+<div class="place-card">
+<img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa">
+<h3>Sylhet</h3>
+<p>Tea Gardens, Ratargul</p>
+</div>
+
+<div class="place-card">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<h3>Bandarban</h3>
+<p>Nilgiri, Boga Lake</p>
+</div>
+
+</div>
+
+
+<h2 id="map">Travel Map</h2>
+
+<div class="map-container">
+
+<iframe
+src="https://www.google.com/maps?q=cox's bazar&output=embed"
+width="600"
+height="450"
+style="border:0;">
+</iframe>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
